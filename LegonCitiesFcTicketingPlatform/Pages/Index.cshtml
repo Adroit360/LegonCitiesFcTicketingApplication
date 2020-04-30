@@ -1,0 +1,32 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+
+<div id="container">
+    <div id="message-box"></div>
+
+    <div class="inputgroup">
+        <label for="voucher">Ticket Number</label>
+        <input id="voucher" type="number" name="voucher">
+    </div>
+    <div class="inputgroup">
+        <label for="phone">Phone</label>
+        <p id="phone"></p>
+    </div>
+    <div class="inputgroup">
+        <label for="match">Match</label>
+        <p id="match"></p>
+    </div>
+    <div class="inputgroup">
+        <label for="category">Category</label>
+        <p id="category"></p>
+    </div>
+
+    <button class="btn btn-primary" id="btnverify" style="width:100%">Verify</button>
+</div>
+
+@*<div class="footer"><p>Developed By Justice Awuley Addico</p> <p>Email : justice.addico.ja@gmail.com</p> <p>Tel : 0557560016</p></div>*@
